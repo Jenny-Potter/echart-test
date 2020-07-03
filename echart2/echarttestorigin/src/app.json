@@ -1,0 +1,34 @@
+{
+  "pages": [
+    {
+      "path": "pages/index",
+      "config": {
+        "navigationBarTitleText": "echarttestorigin"
+      }
+    },
+    {
+      "path":"pages/echartTest",
+      "config": {
+        "usingComponents": {
+          "ec-canvas": "../static/ec-canvas/ec-canvas"
+        }
+      }
+    },
+    "pages/echartTestAgain",
+    "pages/dataSetTest",
+    "pages/counter",
+    {
+      "path": "packageA/logs",
+      "subPackage": true
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "usingComponents": {
+    "van-tag": "/vant-weapp/dist/tag/index"
+  }
+}
